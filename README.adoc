@@ -5,6 +5,8 @@ Ver 2/1b, 01/01/16:Inital training project
 :experimental:
 :icon: font
 
+Phoenix Learning Labs - John HR Schuster
+
 This is a training application for basic JavaScript.  The base of the project comes from a UDEMY course
 
 https://www.udemy.com/mastering-javascript/learn/#/[Paket Publishing] has a very good starter class on JavaScript. 
