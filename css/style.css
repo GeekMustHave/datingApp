@@ -1,0 +1,64 @@
+
+/*--- body covers the entire page */
+body {
+  font-family: helvetica;
+}
+
+#header {
+  background-color: #F16F51;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/*--- Only H1 is at the top of the page */
+h1 {
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+}
+
+/*--- The (row) class we used need definition */
+.row {
+  /*--- Top/Bottom 10px, right/left 0px, no comma's!! */
+  margin: 10px 0px;
+}
+
+/*--- The Main ID (#) is used for the query and filter */
+#main {
+  margin: 10px 0px 20px 10px;
+  float: left;
+}
+
+/*--- The result ID, needs formatting */
+#results {
+  /*--- top 30px, right 20px, bottom 10px, left 0px */
+  margin: 30px 20px 10px 0px;
+}
+
+/*--- person-row class needs formatting */
+.person-row {
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #FDB45C;
+  width: 100%;
+  float: left;
+}
+
+/*--- Now format the image (img) withing the person-row */
+.person-row img {
+  /*--- Puts image on left, text on right in same row */
+  float: left;
+  /*--- Separates the Image from the rest of the text */
+  margin-right: 20px;
+}
+
+.personal-info {
+  float: left;
+}
+
+/*--- Format the button in the person-row class (.) */
+/*    Make it go to the right of the person-row */
+.person-row  button {
+  float: right;
+}
