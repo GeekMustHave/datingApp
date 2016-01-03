@@ -9,30 +9,23 @@ Phoenix Learning Labs - John HR Schuster
 
 This is a training application for basic JavaScript.  The base of the project comes from a UDEMY course
 
-https://www.udemy.com/mastering-javascript/learn/#/[Paket Publishing] has a very good starter class on JavaScript. 
+https://www.udemy.com/mastering-javascript/learn/#/[Paket Publishing] has a very good starter class on JavaScript.
 Some of the material is outdated but, this is still a very good material for the beginner.
 
 == Introduction
 
 The initial push to this GIT was done after 12 sessions, if I were to do it over I would start at session one and commit a new version after each session hase been completed and tested.
 
-This is also a training start for how tro use GIT and GITHub. 
+This is also a training start for how to use GIT and GITHub. 
 
 == Stack
 
 * ATOM text editor
 * Chrome browser
-* Chrome devgeloper tools
+* Chrome developer tools
 * Node
 * Node HTTP-Server
 
 NOTE: Node was just used for the HTTP-SERVER component, but plan on using node later for browser app development.
 
 http://geekmusthave.com/?p=1624[GeekMustHave Post] on how to install Node and HTTP-Service.
-
-
-
-
-
-
-

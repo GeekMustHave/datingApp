@@ -23,5 +23,7 @@ var btnSearch = document.getElementById('searchButton');
 //  run the searchIt function
 btnSearch.addEventListener('click', searchIt);
 
-
+// Notice in Console that this is NOT the last log message
+// The window event Listener at the top generartaes the
+// Last message
 console.log("poop");
