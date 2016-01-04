@@ -30,8 +30,10 @@ NOTE: Node was just used for the HTTP-SERVER component, but plan on using node l
 
 http://geekmusthave.com/?p=1624[GeekMustHave Post] on how to install Node and HTTP-Service.
 
-== onEventListener
+== Lessons Learned
 
-This area of the project caused some difficulty.
-
-GIT can be a PITA sometimes
+* Be careful with file names and directories
+* Avoid duplicate file names
+* Use the HTML developer tools to see JS errors
+* Write in small increments
+* Test till it works, commit it
