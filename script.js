@@ -21,6 +21,8 @@ function searchIt(){
 var btnSearch = document.getElementById('searchButton');
 //    Listen to the button, when it's clicked,
 //  run the searchIt function
+//
+// Having some issues with this working..
 btnSearch.addEventListener('click', searchIt);
 
 // Notice in Console that this is NOT the last log message
