@@ -32,4 +32,4 @@ http://geekmusthave.com/?p=1624[GeekMustHave Post] on how to install Node and HT
 
 == onEventListener
 
-This area of the project caused some difficulty.  
+This area of the project caused some difficulty.   
