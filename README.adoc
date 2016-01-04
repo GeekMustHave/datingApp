@@ -30,6 +30,13 @@ NOTE: Node was just used for the HTTP-SERVER component, but plan on using node l
 
 http://geekmusthave.com/?p=1624[GeekMustHave Post] on how to install Node and HTTP-Service.
 
+== Final results
+This is the final result of the training project.
+It uses a JSON embedded in the JS file as the data source, not the best idea, but OK for a training project.
+
+image::images/datingApp[align=left,alt=Sample,title=Demo of datingApp]
+
+
 == Lessons Learned
 
 * Be careful with file names and directories
