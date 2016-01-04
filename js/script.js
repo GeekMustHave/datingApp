@@ -13,13 +13,25 @@
 
 // The event here is 'load', when the entire page is loaded
 window.addEventListener('load', function() {
-    console.log('the page has been loaded!');  
+    console.log('the page has been loaded!');
 });
 
 // Listen for the "click" event
-//   This is just a verification it's working
+//   This function gets called when the click event is heard
+
+var resultContainer = document.getElementById("results");
 function searchIt(){
-  console.log("I'm searching already!");
+  // console.log("I'm searching already!");
+  // Get the Hobby from text box
+  var hobbyField = document.getElementById('hobby');
+  var hobbyContent = hobbyField.value
+  console.log('hobbyContent is:' + hobbyContent);
+  // Get gender
+  var genderField = document.getElementById('gender');
+  var genderIndex = genderField.selectedIndex;
+  console.log('selected index: ' + genderIndex);
+  var genderValue = genderField.options[genderIndex].value;
+  console.log('Actual value:' + genderValue);
 }
 
 function hoverIt() {
@@ -30,7 +42,7 @@ var btnSearch = document.getElementById('searchButton');
 //    Listen to the button, when it's clicked, or hovered over
 //  run the searchIt or hoverIt function
 btnSearch.addEventListener('click', searchIt);
-btnSearch.addEventListener('mouseover', hoverIt);
+// btnSearch.addEventListener('mouseover', hoverIt);
 
 
 
