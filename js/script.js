@@ -12,10 +12,9 @@
 
 
 // The event here is 'load', when the entire page is loaded
-// window.addEventListener('load', function() {
-//     console.log('the page has been loaded!');
-    //document.getElementById('searchButton').addEventListener("click", searchIt,false);
-// });
+window.addEventListener('load', function() {
+    console.log('the page has been loaded!');  
+});
 
 // Listen for the "click" event
 //   This is just a verification it's working
@@ -28,10 +27,8 @@ function hoverIt() {
 }
 //    Get the Button
 var btnSearch = document.getElementById('searchButton');
-//    Listen to the button, when it's clicked,
-//  run the searchIt function
-//
-// Having some issues with this working..  ss
+//    Listen to the button, when it's clicked, or hovered over
+//  run the searchIt or hoverIt function
 btnSearch.addEventListener('click', searchIt);
 btnSearch.addEventListener('mouseover', hoverIt);
 
