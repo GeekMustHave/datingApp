@@ -80,22 +80,34 @@ function searchIt(){
   console.log('selected index: ' + genderIndex);
   var genderValue = genderField.options[genderIndex].value;
   console.log('Actual value:' + genderValue);
+  // Repopulate the results area, we are passing
+  // the gender from the search click
+  fillResults(genderValue);
 }
 
 // Got though users JSON and build HTML
+function fillResults(genderIs){
 var resultsHTML = '';
 for (var i = 0; i < users.length; i++) {
-  resultsHTML += '<div class="person-row">\
-    <img src="images/' + users[i].avatar + '" alt="" />\
-    <div class="person-info">\
-      <div class="">' + users[i].name + '</div>\
-      <div class="">' + users[i].hobby + '</div>\
-      <button type="button" name="button">Add as friend</button>\
-    </div>\
-  </div>'
+  // filter to match gender dropdown
+  if (genderIs == 'A' || genderIs == users[i].gender) {
+    resultsHTML += '<div class="person-row">\
+      <img src="images/' + users[i].avatar + '" alt="" />\
+      <div class="person-info">\
+        <div class="">' + users[i].name + '</div>\
+        <div class="">' + users[i].hobby + '</div>\
+        <button type="button" name="button">Add as friend</button>\
+      </div>\
+    </div>'
 
-resultContainer.innerHTML = resultsHTML;
-}
+  resultContainer.innerHTML = resultsHTML;
+  };  // end of if
+};  // end of for
+} // end of function
+
+// Now cdll the function to populate the results initially
+// The default for the drill down is All (A)
+fillResults('A');
 
 function hoverIt() {
   console.log("Someone is over me");
