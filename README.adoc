@@ -16,7 +16,7 @@ Some of the material is outdated but, this is still a very good material for the
 
 The initial push to this GIT was done after 12 sessions, if I were to do it over I would start at session one and commit a new version after each session hase been completed and tested.
 
-This is also a training start for how to use GIT and GITHub. 
+This is also a training start for how to use GIT and GITHub.
 
 == Stack
 
@@ -29,3 +29,7 @@ This is also a training start for how to use GIT and GITHub.
 NOTE: Node was just used for the HTTP-SERVER component, but plan on using node later for browser app development.
 
 http://geekmusthave.com/?p=1624[GeekMustHave Post] on how to install Node and HTTP-Service.
+
+== onEventListener
+
+This area of the project caused some difficulty.
